@@ -13,6 +13,8 @@ database = xx
 outdir = ./dumper-sql
 # Split tables into chunks of this output file size. This value is in MB
 chunksize = 128
+# thread num limit
+threads = 16
 # Session variables, split by ;
 # vars= "xx=xx;xx=xx;"
 vars= ""
